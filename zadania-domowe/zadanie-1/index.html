@@ -1,10 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Zadanie 1</title>
+    <title>Formularz kontaktowy</title>
 </head>
+
 <body>
-    <p>Rozwiązanie zadania 1</p>
+    <h1>Zapisz się na szkolenie!</h1>
+    <form action="https://formspree.io/marta@zdalnebabki.pl" method="post">
+        <label for="name">Imię:</label>
+        <input type="text" id="name" name="name"><br>
+        <label for="surname">Nazwisko:</label>
+        <input type="text" id="surname" name="surname"><br>
+        <label for="surname">Email:</label>
+        <input type="text" id="email" name="email"><br>
+        <label for="city">Miasto:</label> 
+        <select id="city">
+            <option value="Krakow">Kraków</option>
+            <option value="Warszawa">Warszawa</option>
+            <option value="Gdansk">Gdańsk</option>
+            </select>
+        <p>Podaj płeć:</p>
+        <input type="radio" id="woman" name="choose" value="Kobieta">
+        <label for="woman">Kobieta</label> <br>
+        <input type="radio" id="man" name="choose" value="Mężczyzna">
+        <label for="man">Mężczyzna</label><br>
+  <input type="checkbox" name="check" id="check">
+ <label for="check">Wyrażam zgodę na przetwarzanie danych osobowych</label><br>
+  <label for="message">Treść wiadomości:</label> <br>
+<textarea name="message" id="message">...</textarea><br>
+   <input type="submit" value="Wyślij wiadomość">
+    </form>
 </body>
+
 </html>
