@@ -25,14 +25,36 @@ form textarea:focus {
     background-color: #4e708c;
     border: 1px dotted #fff;
     color: #fff;
+    outline:none;
 }
 form select,
 form textarea {
     color: #fff;
 }
+form textarea {
+    height: 60px;
+}
+
+fieldset {
+   width:250px;
+    margin-bottom: 10px;
+}
+form input[type="checkbox"]
+{
+    float:left;
+    display:inline;
+}
 form input[type="submit"]{
+    padding: 12px 20px;
     background-color: green;
     color: #fff;
     border:green 1px;
+    text-transform: uppercase;
 }
-
+form input[type="submit"]:hover {
+    padding: 12px 20px;
+    background-color: red;
+    color: #fff;
+    border:green 1px;
+    text-transform: uppercase;
+}
