@@ -1,0 +1,38 @@
+form {
+    background-color: #213b50;
+    color: #fff;
+    padding: 20px;
+    width: 600px;
+}
+form label {
+    display:block;
+    margin-bottom:5px;
+    color: #fff;
+}
+form input[type="text"],
+form select,
+form textarea
+{
+    width:300px;
+    height:25px;
+    background-color: #2b4a64;
+    border: #2b4a64 1px;
+    margin: 5px 0;
+}
+input[type="text"]:focus,
+form select:focus,
+form textarea:focus {
+    background-color: #4e708c;
+    border: 1px dotted #fff;
+    color: #fff;
+}
+form select,
+form textarea {
+    color: #fff;
+}
+form input[type="submit"]{
+    background-color: green;
+    color: #fff;
+    border:green 1px;
+}
+
