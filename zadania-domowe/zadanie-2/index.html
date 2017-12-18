@@ -10,9 +10,9 @@
     <h1>A simple form </h1>
     <p>Form fundamentals</p>
     <form action="https://formspree.io/marta@zdalnebabki.pl" method="post" autocomplete="on">
+       
         <fieldset>
-            <legend> Customer info
-            </legend>
+            <legend> Customer info</legend>
             <label for="name">Name:</label>
             <input autofocus type="text" name="name" id="name" placeholder="Enter your name" required> <br>
             <label for="telephone">Telephone:</label>
@@ -21,19 +21,19 @@
             <input type="email" name="email" id="email" placeholder="Email adress:" multiple required> <br>
         </fieldset>
         <fieldset>
-            <legend> Books
-            </legend>
-            <select name="books">
-            <option>Wypożyczona</option>
-		    <option>Zarezerwowana</option>
-           <option>Do odbioru</option>
-           <option>Zaginiona</option>
-           <option>W archiwum</option>
-            </select>
+            <legend> Books</legend>
+            <input list="books" name="books">
+            <datalist id="books">
+                <option value="Wypożyczona">
+                <option value="Zarezerwowana">
+                <option value="Do odbioru">
+                <option value="Zaginiona">
+                <option value="W archiwum">
+            </datalist>
             <label for="quantity">Quantity (Maximum 5):</label>
             <input type="number" name="quantity" id="quantity" min="1" max="5">
         </fieldset>
-        <input type="submit" name="submit" value="Wyślij">
+            <input type="submit" name="submit" value="Wyślij">
     </form>
 </body>
 
