@@ -1,0 +1,44 @@
+body {
+    
+    padding: 0;
+    margin: 0;
+}
+
+.main-container {
+    
+    display: flex;
+    flex-flow: row wrap;
+    color: #fff;
+    text-align: center;
+}
+
+.main-container > * {
+    
+    padding: 10px;
+    flex: 1 100%;
+}
+
+.main-header {
+    
+    background-color: red;
+
+}
+
+.main-content {
+
+    background-color: aqua;
+}
+
+.aside-left {
+
+    background-color: green;
+}
+
+.aside-right {
+
+    background-color: pink;
+}
+
+.main-footer {
+    background-color: purple;
+}
