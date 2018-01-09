@@ -1,8 +1,5 @@
 @media screen and (max-width: 768px) {
-    .main-header {
-       
-        display: none;
-    }
+
     .aside-left,
     .aside-right {
         
@@ -11,10 +8,7 @@
 }
 
 @media screen and (min-width:769px) and (max-width:992px) {
-    .main-header {
-       
-        display: none;
-    }
+ 
     .main-content {
         
         order: 1;
