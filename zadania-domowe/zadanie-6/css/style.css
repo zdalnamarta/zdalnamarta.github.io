@@ -31,7 +31,6 @@
     display: inline-block;
     padding-bottom: 20px;
     padding-top: 20px;
-    padding-right: 15px;
     text-transform: uppercase;
 
 }
@@ -39,13 +38,23 @@
 #main-nav #left-nav {
 
     padding-left: 10px;
+    padding-right:10px;
 
 }
+#main-nav #left-nav li {
 
+    margin-right:10px;
+
+}
 #main-nav #right-nav {
 
     float: right;
     padding-right: 10px;
+    padding-left: 10px;
+}
+#main-nav #right-nav li {
+
+    margin-left: 10px;
 }
  /*Triangle styles*/
 .triangle {
