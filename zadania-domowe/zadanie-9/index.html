@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Kalkulator odsetek</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
-       <form>
-      <label for="wplata">Wpłata: <input type="number" id="wplata" value=0 min=100 /></label> <br/>
-    <label for="okres-kapitalizacji">Czętotliwosc kapitalizacji</label>
-    <select id="okres-kapitalizacji">
+    <form>
+        <label for="wplata">Wpłata: <input type="number" id="wplata" value=0 min=100 /></label> <br/>
+        <label for="okres-kapitalizacji">Czętotliwosc kapitalizacji</label>
+        <select id="okres-kapitalizacji">
       <option value="12">Miesięcznie</option>
       <option value="4">Kwartalnie</option>
       <option selected="selcted" value="1">Rocznie</option>
       </select><br/>
-       <label for="ilosc-lat">Ilosć lat: <input type="number" id="ilosc-lat" value=1 min=1 /></label><br/>
-     <label for="oprocentowanie">Stopa zwrotu w % <input type="number" id="oprocentowanie" value=10 min=0/></label><br/>
-   <label><input type="checkbox" id="podatek"> Uwzględnij
+        <label for="ilosc-lat">Ilosć lat: <input type="number" id="ilosc-lat" value=1 min=1 /></label><br/>
+        <label for="oprocentowanie">Stopa zwrotu w % <input type="number" id="oprocentowanie" value=10 min=0/></label><br/>
+        <label><input type="checkbox" id="podatek"> Uwzględnij
 podatek Belki 19%</label><br/>
-    <div class="orange-button">
-        <p class="orange-button" onclick="oblicz()">Oblicz</p></div>
+        <div class="orange-button">
+            <p class="orange-button" onclick="oblicz()">Oblicz</p>
+        </div>
     </form>
     <p id="wynik"></p>
-    <script src="js/index.js"></script>  
+    <script src="js/index.js"></script>
 </body>
+
 </html>
