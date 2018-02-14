@@ -137,6 +137,9 @@ adress a:hover {
     position: absolute;
     font-size:initial; 
     transition: all 0.3s ease-in-out;
+    top:0;
+    left:0;
+    padding:5px;
 }
 .item-mask:hover {
      opacity: 1;
