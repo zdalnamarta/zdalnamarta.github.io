@@ -1,0 +1,44 @@
+@import "zmienne";
+@import "mixin";
+
+#services {
+    background-color: $white-color;
+    @include section-att;
+        
+        .main-heading h2 {
+                @include headings;
+            }
+        .section-description {
+                @include section-description;
+            }       
+        .services-item {
+                    
+                .fa {
+                    width: 100px;
+                    height: 100px;
+                    background-color: $base-color;
+                    line-height: 100px;
+                    color: $white-color;
+                    border-radius: 50%;
+                    font-size: 50px;
+                    margin-bottom: 20px;
+                    border: 2px solid $base-color;
+                    transition: all .3s;
+                    }
+            
+                .fa:hover {
+                    cursor: pointer;
+                    background-color: #fff;
+                    color: $base-color;
+                    transform: rotate(360deg);
+                    }
+                }
+        
+        .services-text {
+                font-size:14px;
+                padding:5px;
+                }
+    
+            }
+        
+ 

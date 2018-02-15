@@ -1,0 +1,53 @@
+@import "zmienne";
+@import "mixin";
+@media all and (max-width: 992px){
+    .navbar {
+        background-color: $white-color;
+
+        .navbar-toggler {
+            border: 1px solid $base-color;
+        }
+
+        .navbar-nav {
+
+            .nav-item {
+                text-align: right;
+                padding: 10px 0;
+                border-top: 1px solid rgba(119, 119, 119, 0.6);
+
+                    .nav-link {
+                        color: $gray-color;
+                    }
+                }    
+        }
+        .navbar-brand {
+            @include nav-color;
+        }
+    }
+    
+    #main-footer {
+    
+            .footer-content{
+                text-align: center;
+            }
+            .footer-nav ul {
+                text-align: center;
+            }    
+        }
+}
+@media all and (max-width: 768px) {
+    
+    #contact-us {
+        margin-bottom: 30px;
+    }
+
+    #main-footer {
+    
+            .footer-content{
+                text-align: center;
+            }
+            .footer-nav ul {
+                text-align: center;
+            }    
+        }
+    }

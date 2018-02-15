@@ -1,0 +1,36 @@
+#services {
+  background-color: #fff;
+  height: auto;
+  display: flex;
+  text-align: center; }
+  #services .main-heading h2 {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 25px;
+    color: #333333; }
+  #services .section-description {
+    font-family: "Droid Serif";
+    font-style: italic;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #333333; }
+  #services .services-item .fa {
+    width: 100px;
+    height: 100px;
+    background-color: #0ed8d6;
+    line-height: 100px;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 50px;
+    margin-bottom: 20px;
+    border: 2px solid #0ed8d6;
+    transition: all .3s; }
+  #services .services-item .fa:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #0ed8d6;
+    transform: rotate(360deg); }
+  #services .services-text {
+    font-size: 14px;
+    padding: 5px; }

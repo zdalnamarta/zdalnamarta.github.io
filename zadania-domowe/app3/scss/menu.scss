@@ -1,0 +1,29 @@
+@import "zmienne";
+@import "mixin";
+
+
+.navbar {
+    transition: all .3s;
+
+    .navbar-nav {
+
+        .nav-link {
+            @include nav-color;
+            font-family: $font-1;
+        }
+    }
+    .navbar-brand {
+        @include nav-color;
+        font-family: $font-2;
+        font-size: 2em;
+    }
+}
+
+.scroll {
+    background-color: rgba(14, 216, 214, 0.8);
+
+    .navbar-nav .nav-link:hover,
+    .navbar-brand:hover {
+        color: gray-color;
+    }
+}

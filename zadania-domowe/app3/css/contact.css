@@ -1,0 +1,32 @@
+#contact-us {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url(../img/footer/world-map.jpg);
+  display: flex;
+  text-align: center; }
+  #contact-us .main-heading h2 {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 25px;
+    color: #333333; }
+  #contact-us .section-description {
+    font-family: "Droid Serif";
+    font-style: italic;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #333333; }
+  #contact-us input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #222222;
+    height: 50px; }
+  #contact-us textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #222222;
+    height: 100%; }
+  #contact-us input[type="submit"] {
+    background-color: #0ed8d6;
+    color: #fff;
+    margin-top: 20px; }

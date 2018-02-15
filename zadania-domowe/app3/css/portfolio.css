@@ -1,0 +1,64 @@
+#portfolio {
+  background-color: #f7f7f7;
+  height: auto;
+  display: flex;
+  text-align: center; }
+  #portfolio .main-heading h2 {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 25px;
+    color: #333333; }
+  #portfolio .section-description {
+    font-family: "Droid Serif";
+    font-style: italic;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #333333; }
+  #portfolio .card {
+    float: none;
+    margin: 10px auto;
+    width: 20em;
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px; }
+    #portfolio .card .portfolio-image-holder {
+      height: 225px;
+      overflow: hidden;
+      position: relative; }
+    #portfolio .card .portfolio-image-holder img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      transition: all 3s; }
+    #portfolio .card .portfolio-image-holder:hover img {
+      transform: scale(1.5); }
+    #portfolio .card .portfolio-mask {
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      background-color: rgba(14, 216, 214, 0.6);
+      top: 0;
+      color: #fff;
+      font-size: 2em;
+      opacity: 0;
+      transition: all .3s; }
+    #portfolio .card i {
+      line-height: 230px;
+      color: #fff;
+      font-size: 60px; }
+    #portfolio .card:hover .portfolio-mask {
+      opacity: 1; }
+    #portfolio .card .card-block .card-title {
+      text-align: center;
+      margin-bottom: 0; }
+    #portfolio .card .card-block .card-text {
+      text-align: center;
+      padding: 2px;
+      font-family: "Droid Serif";
+      font-style: italic; }

@@ -1,0 +1,34 @@
+@mixin nav-color {
+    color: $white-color;
+    text-transform: uppercase;
+    transition: 3s;
+
+    :hover {
+    color: $gray-color;
+    }
+}
+@mixin headings {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 25px;
+    color: $gray-color;
+}
+@mixin section-description {
+    font-family: $font-2;
+    font-style: italic;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: $gray-color;
+}
+@mixin section-att {
+    height: auto;
+    display:flex;
+    text-align: center; 
+}
+@mixin form-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #222222; 
+}

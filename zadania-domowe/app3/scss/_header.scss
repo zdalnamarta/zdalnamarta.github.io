@@ -1,0 +1,25 @@
+@import "zmienne";
+
+#main-header {
+    background-image: linear-gradient(rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.3) 100%),url(../img/header/pictures_on_the_wall.jpg);
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    display:flex;
+    color:$white-color;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+        .main-button {
+            background-color: $base-color;
+            color: $white-color;
+            font-family: 'Montserrat', sans-serif;   
+        }
+    
+        .main-button:hover {
+            background-color: $white-color;
+            color: $base-color;
+            border: solid 1px $base-color;
+        }
+}

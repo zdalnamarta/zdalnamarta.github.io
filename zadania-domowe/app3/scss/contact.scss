@@ -1,0 +1,28 @@
+@import "zmienne";
+@import "mixin";
+
+#contact-us {
+    background-image: linear-gradient(rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(../img/footer/world-map.jpg);
+    display:flex;
+    text-align: center; 
+   
+            .main-heading h2 {
+                @include headings;
+                }
+            .section-description {
+                @include section-description;
+                }
+            input {
+                @include form-input;
+                height: 50px;
+                }
+            textarea {
+                @include form-input;
+                height:100%;
+                }
+            input[type="submit"] {
+                background-color: $base-color;
+                color: $white-color;
+                margin-top: 20px;
+                }
+            }
