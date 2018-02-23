@@ -1,0 +1,67 @@
+/* General styles */
+body{
+	font-family: 'Kaushan Script', cursive;
+}
+.section {
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.logo,
+.logo2 {
+    margin:0 10px;
+}
+.content-wrapper{
+    display:block;
+}
+/* Header styles */
+.header-container {
+    text-align: center;
+}
+.page_title {
+    font-size: 1.5em;
+    color: #26b6d0;
+	line-height: 35px;
+}
+.link a {
+	text-decoration:none;
+	color: #26b6d0;
+}
+.main-content {
+    padding: 0;
+    text-align: center;
+    margin: 10vh auto;
+	width: 100%;
+    top: 50;
+}
+.container-puzzle img{
+	width: 10%;
+	height: 10%;
+}
+#text{
+	opacity: 1;
+	font-weight: bold;
+	font-size: 1.5em;
+    display: inline-block;
+}
+#z{
+	color: #ff5947;
+}
+#w{
+	color: #dc69a2;
+}
+#k{
+	color: #ffbe00;
+}
+/* Footer styles */
+.main-footer {
+    margin-top: 5vh;
+    bottom:0;
+}
+.wspolpraca {
+    display: block;
+    text-align:center;
+    margin: 0 auto;
+	margin-bottom: 30px;
+}
